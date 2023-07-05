@@ -102,6 +102,9 @@ export class News extends Component {
                         );
                     })}
                 </div>
+
+
+                {/* next and previous buttons */}
                 <div className="container d-flex justify-content-between my-4">
                     <button
                         disabled={this.state.page <= 1}
