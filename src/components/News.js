@@ -90,12 +90,17 @@ export class News extends Component {
                     {!this.state.loading && this.state.articles.map((element) => {
                         return (
                             <div className="col-md-4" key={element.url}>
+
                                 <NewsItem
-                                    title={element.title ? element.title.slice(0, 50) : ''}
+                                    title={element.title}
                                     description={element.description ? element.description.slice(0, 100) : ''}
                                     imageUrl={element.urlToImage}
                                     newsUrl={element.url}
+                                    author={element.author}
+                                    date={element.publishedAt}
+                                    source={element.source.name}
                                 />
+
                             </div>
                         );
                     })}
