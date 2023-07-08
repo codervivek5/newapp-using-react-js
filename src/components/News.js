@@ -20,8 +20,6 @@ export class News extends Component {
         category: PropTypes.string,
     }
 
-
-
     constructor() {
         super();
         this.state = {
