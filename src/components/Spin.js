@@ -5,7 +5,7 @@ export class Spin extends Component {
     render() {
         return (
             <div className='text-center'>
-                <img src={loading} alt="loding" />
+                <img className="my-3" src={loading} alt="loding" />
             </div>
         )
     }
