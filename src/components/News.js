@@ -24,7 +24,7 @@ export class News extends Component {
             loading: true,
             page: 1,
             totalResults: 0,
-            hasMore: true, // Added hasMore property to track if there are more articles to load
+            // hasMore: true, // Added hasMore property to track if there are more articles to load
         };
     }
 
